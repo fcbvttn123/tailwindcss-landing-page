@@ -39,7 +39,7 @@
     <main class="w-full mt-8">
         <div class="w-11/12 max-w-5xl mx-auto relative">
             <h1 class="text-violet-600 font-bold text-2xl pb-2 border-b border-blue-300">Advantages</h1>
-            <div class="flex flex-col md:flex-row md:gap-x-6  items-center justify-between text-violet-600">
+            <div class="flex flex-col md:flex-row md:gap-x-6  items-center md:items-stretch justify-between text-violet-600">
                 <div class="w-full flex flex-col items-center border-b-4 border-pink-500 bg-white mt-5 rounded-lg p-4">
                     <div class="flex items-center justify-center">
                         <svg class="fill-current w-24 p-3 bg-gray-100 rounded-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -70,11 +70,19 @@
     <footer class="w-full bg-slate-700 mt-14">
         <div class="w-11/12 max-w-5xl mx-auto">
             <h1 class="text-gray-300 text-2xl font-bold text-center pt-14">Sign up to download the free PDF</h1>
-            <form action="#" class="flex flex-wrap flex-col sm:flex-row items-center justify-between sm:justify-center sm:gap-x-4 px-8 gap-y-4 mt-8">
-                <input type="text" placeholder="First Name" class="bg-slate-500 placeholder:text-slate-200 placeholder:font-bold px-4 py-2 border border-slate-200 rounded-lg w-full sm:w-5/12" name="" id="">
-                <input type="text" placeholder="Last Name" name="" id="" class="bg-slate-500 placeholder:text-slate-200 placeholder:font-bold px-4 py-2 border border-slate-200 rounded-lg w-full sm:w-5/12">
-                <input type="text" placeholder="john@gmail.com" name="" id="" class="bg-slate-500 placeholder:text-slate-200 placeholder:font-bold px-4 py-2 border border-slate-200 rounded-lg w-full sm:w-5/12">
-                <input type="email" placeholder="Your title" name="" id="" class="bg-slate-500 placeholder:text-slate-200 placeholder:font-bold px-4 py-2 border border-slate-200 rounded-lg w-full sm:w-5/12">
+            <form action="#" class="flex flex-wrap flex-col sm:flex-row items-center justify-between sm:justify-center px-8 gap-y-4 mt-8">
+                <div class="w-full sm:w-1/2 sm:pr-2">
+                    <input type="text" placeholder="First Name" class="bg-slate-500 placeholder:text-slate-200 placeholder:font-bold px-4 py-2 border border-slate-200 rounded-lg w-full" name="" id="">
+                </div>
+                <div class="w-full sm:w-1/2 sm:pl-2">
+                    <input type="text" placeholder="Last Name" name="" id="" class="bg-slate-500 placeholder:text-slate-200 placeholder:font-bold px-4 py-2 border border-slate-200 rounded-lg w-full">
+                </div>
+                <div class="w-full sm:w-1/2 sm:pr-2">
+                    <input type="text" placeholder="john@gmail.com" name="" id="" class="bg-slate-500 placeholder:text-slate-200 placeholder:font-bold px-4 py-2 border border-slate-200 rounded-lg w-full">
+                </div>
+                <div class="w-full sm:w-1/2 sm:pl-2">
+                    <input type="email" placeholder="Your title" name="" id="" class="bg-slate-500 placeholder:text-slate-200 placeholder:font-bold px-4 py-2 border border-slate-200 rounded-lg w-full">
+                </div>
                 <button class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded-lg flex items-center justify-center">Create account</button>
             </form>
             <p class="mt-12 pb-8 text-center text-gray-500 text-sm font-semibold">Copyright © 2019 Scrimba</p>
